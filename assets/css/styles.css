@@ -1,6 +1,5 @@
-*,
-*::before,
-*::after {
+::before,
+::after {
   box-sizing: border-box;
 }
 
@@ -49,9 +48,11 @@ header {
   background: #e7e9eb;
   height: 2px;
 }
-
-.card-body {
-  min-height: 100px;
+.form {
+  min-height: 50px;
+}
+#textBox {
+  z-index: 1000;
 }
 
 .card-footer {
@@ -88,7 +89,7 @@ header {
   cursor: pointer;
 }
 
-button[disabled] {
+button[enabled] {
   cursor: default;
   background: #c0c7cf;
 }
