@@ -1,1 +1,1 @@
-# PasswordGen
+For this project I created a password generator. Will allow you to generate passwords between 8 and 128 characters and is fuctional enough to let you know that you cant do anymore or any let than that. 
